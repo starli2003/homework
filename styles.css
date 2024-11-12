@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.header {
+    background-color: #1a1a2e;
+    padding: 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    color: #fff;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav a {
+    color: #bbb;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #fff;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #1a1a2e;
+    color: #fff;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 1em;
+    color: #aaa;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    background-color: #1e90ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero-image img{
+    width: 400px;
+    height: 250px;
+    border: 2px black solid;
+    border-radius: 20px;
+}
+
+.info {
+    padding: 40px;
+    text-align: center;
+    background-color: #f4f4f4;
+    height: 400px;
+}
+
+.info h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+div.gallery {
+    margin: 50px;
+    float: left;
+    width: 190px;
+}
+
+div.gallery img {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    border: 3px blue solid;
+    border-radius: 20px;
+}
+
+.quote {
+    padding: 50px;
+    text-align: center;
+    background-color: #e0e0e0;
+    font-style: italic;
+    color: #666;
+}
+
+.cta {
+    margin: 90px;
+    background-color: #1e90ff;
+    color: #fff;
+    text-align: center;
+    padding: 45px;
+    border-radius: 5px;
+}
+
+.action{
+    float: left;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.action h3{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.action p{
+    font-size: 1em;
+    margin-bottom: 80px;
+}
+
+.cta .btn-primary{
+    border: 1px white solid;
+}
+
+.footer {
+    background-color: #1a1a2e;
+    color: #bbb;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+}
